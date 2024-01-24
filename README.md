@@ -1,6 +1,6 @@
 # travel journal - первый проект на React, работа с динамическим рендерингом из массива, работа с пропсами
 
-# ![Alt text](./img/Screenshot_4.png?raw=true "Верстка страницы для ПК")
+# ![Alt text](./src/img/Screenshot_4.png?raw=true "Верстка страницы для ПК")
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
