@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.myNav {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  height: 70px;
+  padding: 20px 36px;
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001a;
+}
+.myNav span {
+  margin-left: 5px;
+  font-weight: bold;
+}
+.card--image {
+  display: block;
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  color: #2b283a;
+}
+
+.card_body {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.card--location {
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.card--location i {
+  color: #f55a5a;
+}
+.card--map {
+  margin-left: 15px;
+  color: #918e9b;
+}
+.card--map:hover {
+  color: #f55a5a;
+}
+.card--title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0px 0px 10px 0px;
+}
+.card--date {
+  font-weight: 700;
+}
+.card--subtitle {
+  line-height: 150%;
+}
